@@ -1,0 +1,371 @@
+@import 'color';
+@import 'fonts';
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5{
+  margin: 0;
+}
+
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container{
+  max-width: 1200px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+}
+
+body{
+  min-width: 320px;
+  overflow-x: hidden;
+  font-family: 'Roboto','Arial', 'sans-serif';
+  font-weight: 400;
+  background-color: #fff;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header{
+  &__inner{
+    min-height: 60px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 100%;
+  }
+}
+
+.menu__list{
+  display: flex;
+  align-items: center;
+  &-item{
+    padding-right:60px;
+    font-size: 14px;
+    line-height: 24px;
+    color: $head-text-color;
+    li{
+      a{
+        color: green;
+      }
+    }
+  }
+}
+
+.menu__shop-btn{
+  background-color: $button;
+  color: #fff;
+  border-radius: 2px;
+  border: none;
+  width: 160px;
+  height: 26px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  cursor: pointer;
+}
+.logo__link{
+  justify-content: center;
+
+}
+.logo__link:last-child{
+  padding-left: 250px;
+}
+.head{
+  &__inner{
+    background-image: url(../images/top.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    min-height: 544px;
+  }
+  &__item{
+    width: 50%;
+    padding-top: 200px;
+    &-title{
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 66px;
+      color: $title-color;
+    }
+    &-text{
+      font-size: 18px;
+      line-height: 30px;
+      color:$head-text-color;
+      padding-top: 20px;
+    }
+    &-btn-1, &-btn-2{
+      width: 190px;
+      height: 36px;
+      background: $button;
+      border-radius: 4px;
+      color: #fff;
+      text-align: center;
+      display: inline-block;
+      margin-top: 74px;
+      border: none;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      border: 2px solid $title-color;
+      padding: 5px;
+      margin-right: 30px;
+    }
+    &-btn-2{
+      background: #fff;
+      color:$title-color;
+    }
+  }
+}
+
+.desc{
+    display: flex;
+    flex-direction: row;
+    padding-top: 160px;
+  &__item{
+    width: 50%;
+    float: left;
+    display: block;
+  }
+  &__item:last-child{
+    margin-top: -116px;
+  }
+  &__item-title{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  &__item-text{
+    font-size: 16px;
+    line-height: 26px;
+    color:$text-color;
+    margin-top: 16px;
+    margin-bottom: 80px;
+  }
+&__card{
+  display: flex;
+  flex-direction: row;
+  float: left;
+  display: block;
+  width: 50%;
+  position: relative;
+}
+&__card::before{
+  content: "";
+  background-image: url(../images/card-item.png);
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  z-index: 2;
+  top: -40px;
+  left: 0;
+}
+&__card-title{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: $title-color;
+  margin-top: 15px;
+}
+&__card-text{
+  font-size: 12px;
+  line-height: 18px;
+  color: $inner-text;
+  padding-right: 25px;
+}
+
+}
+
+.intro{
+  display: flex;
+  flex-direction: row;
+  &__item{
+    width: 50%;
+    float: left;
+    display: block;
+    padding-top: 120px;
+    &-title{
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 48px;
+      padding-top: 20px;
+    }
+    &-text{
+      font-size: 16px;
+      line-height: 26px;
+      color: $inner-text;
+      margin-top: 16px;
+      width: 75%;
+    }
+    &-btn{
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      background-color: $button;
+      color: #FFF;
+      width: 150px;
+      height: 32px;
+      overflow: hidden;
+      border-radius: 4px;
+      border: none;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 5px;
+      margin-top: 40px;
+      cursor: pointer;
+    }
+  }
+}
+
+.pricing{
+  margin-top: 110px;
+  padding-bottom: 200px;
+  display: flex;
+  text-align: center;
+  background-image: url(../images/price-background.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  &__item{
+    &-title{
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 48px;
+      padding-top: 20px;
+      margin-top: 200px;
+      color: $title-color;
+    }
+    &-text{
+      font-size: 16px;
+      line-height: 26px;
+      color: $text-color;
+      max-width: 600px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+    &-price{
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 66px;
+      letter-spacing: 1px;
+      color:$price;
+      margin-bottom: 10px;
+    }
+    &-price-title{
+      font-size: 16px;
+      line-height: 26px;
+      color:$price;
+    }
+    &-lou-title{
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      color: $inner-text;
+      margin-top: 60px;
+      margin-bottom: 10px;
+    }
+    &-btn{
+      width: 190px;
+      height: 32px;
+      background: $button;
+      color: #fff;
+      overflow: hidden;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 5px;
+      text-align: center;
+      border-radius: 4px;
+      border: none;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      cursor: pointer;
+    }
+  }
+}
+
+.footer{
+  background-color: $footer-color;
+  &__item{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #CDD1D4;
+    &-text{
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      color: #939EA4;
+    }
+    &-btn{
+      text-align: center;
+      background-color: $button;
+      color: #FFF;
+      width: 110px;
+      height: 26px;
+      overflow: hidden;
+      border-radius: 4px;
+      border: none;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+  &__bottom{
+    flex-direction: row;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+    margin-top: 25px;
+    padding-bottom: 30px;
+    &-menu{
+      &-list{
+      display: flex;
+      li{
+        margin-right: 60px;
+        font-size: 14px;
+        line-height: 24px;
+        a
+          {
+            color: #929ECC;
+          }
+        }
+      }
+    }
+  }
+  &__social{
+    display: flex;
+    a{
+      padding-left: 20px;
+    }
+  }
+}

@@ -1,0 +1,1085 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.container-fluid{
+
+}
+
+#header{
+		background: #000000;
+/*  		height:80px; */
+min-height: 80px;
+/*  			display: inline-block; */ 
+			    top: 0;
+border-bottom: 6px solid #00aba9;
+
+}
+
+
+.navbar{
+	border-radius: 0;
+/* 	border-bottom: 5px; */
+margin: 0;
+background:#000000;
+border: 0;
+margin-top: 19px;
+
+}
+
+@media screen and (min-width: 760px) {
+  .navbar-nav {
+    float: right;
+  }
+}
+
+.navbar-header{
+	
+}
+#container_header{
+	padding-top: 10px; /* не забыть глянуть что там на самом деле */
+}
+
+
+
+
+.logo{
+	display: inline-block;
+}
+.text_up{
+	color: white !important;
+font-family: "Advent Pro";
+font-size: 24px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+
+
+li:hover{
+	background: purple;
+}
+/* //////////////////////////////////////////////////// */
+.container-fluid{
+/* 	height: 606px; */
+/* 		background-color: green; */
+text-align: center;
+}
+a{
+
+}
+
+.company_name{
+	
+}
+
+/* /////////////////////////карусель */
+
+#carousel_f{
+	padding-right: 0;
+    padding-left: 0;
+	border-bottom: 6px solid #00aba9;
+/* 	max-height: 606px; */
+		margin: 0;
+		
+}
+
+#myCarousel{
+	margin: 0;
+	height: 606px;
+
+}
+.text_in_carousel{
+
+color: #00aba9;
+font-family: "Advent Pro";
+font-size: 72px;
+font-weight: 500;
+text-transform: uppercase;
+
+position: absolute;
+    margin-top: -3.500em;
+}
+
+/* Вернуть карусель обратно, но не работает в ней адаптив */
+/* 
+
+.carousel slide{
+	height: 606px;
+	
+}
+
+.carousel {
+  height: 606px;
+
+}
+
+.carousel-inner{
+	
+	height: 100%;
+	
+}
+.carousel-caption {
+  z-index: 10; 
+}
+
+
+.carousel .item {
+  height: 606px;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 606px;
+}
+
+.carousel-control {
+left: -80px;
+right:-50px;
+}
+ */
+ 
+ 
+
+
+
+#about_company{
+
+	text-align:center;
+	height:380px;
+position: relative;
+}
+
+.about_text{
+	
+	height: 105px;
+color: #555555;
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+}
+
+#about_text_h{
+
+color: black;
+font-family: "Advent Pro";
+font-size: 38px;
+font-weight: 700;
+text-transform: uppercase;
+text-align: center;
+margin-top:100px;
+
+}
+
+.container_about{
+		height:auto;
+		position:relative;
+		display: inline-block;
+}
+
+#our_services{
+	min-height: 603px;
+	background:#008287;
+	position: relative;
+}
+
+.some_service{
+	weight: 45px;
+}
+
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+#our_services_h_text{
+	
+	text-align:center;
+	color: #ffffff;
+	font-family: "Advent Pro";
+	font-size: 38px;
+	font-weight: 500;
+	text-transform: uppercase;
+		margin-top:100px;
+
+}
+
+#our_services_in_text{
+	text-align:center;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.some_serv_h{
+	margin: 0 auto;
+	display: inline-block;
+	color: #000000;
+font-family: "Advent Pro";
+font-size: 30px;
+font-weight: 700;
+text-transform: uppercase;
+	
+}
+
+#blog_news{
+	height:761px;
+	height:auto;
+	position:relative;
+
+}
+
+
+@media only screen and (min-width : 480px) {
+ 
+	.nes_pic_main { 
+	height: auto; 
+	width: 100%;}
+}
+
+@media only screen and (max-width : 480px) {
+ 
+	.nes_pic_main { 
+	height: auto; 
+	width: 100%;}
+}
+
+
+@media only screen and (min-width : 768px) {
+	
+	.nes_pic_main {
+	height: 200px;
+	width: 100%;
+				}
+}
+
+   @media screen and (device-width: 1024px) {
+    .nes_pic_main {width: 100%;}
+   }
+   
+   @media screen and (max-width: 768px) {
+    .nes_pic_main {width: 100%;}
+   }
+
+
+.nes_pic_main{
+	display: inline-table;
+}
+
+.news_pic0, .news_pic1, .news_pic2, .news_pic3, .news_pic4{
+	
+	display: inline-block;
+	float: left;
+	padding-left:0;
+
+}
+
+ .news_pic1, .news_pic2, .news_pic3, .news_pic4{
+	margin-left: 18px;
+	margin-bottom: 18px;
+	bottom: 0;
+	position: relative;
+	
+}
+.news_pic0{
+/* 	width:566px; */
+	height:375px;
+c
+
+/* 	bottom: 0;
+	position: relative;
+	padding: 0; */
+}
+
+.pich {
+margin-top: 10px;
+height: 23px;
+color: #010101;
+font-family: "Advent Pro";
+font-size: 30px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.pict{
+	width: 100%;
+	padding-left: 17px;
+	background: rgba(76, 165, 155, 0.5);
+	color: white;
+	line-height: 30px;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	position: relative;
+	float: bottom;
+    position: absolute;
+    bottom: 10px;
+	}
+		
+.date_text_news{
+	float: right;
+	color: #ffffff;
+	font-family: "Advent Pro";
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-right: 15px;
+	padding-top: 6px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.date_text_news_small{
+	
+	float: right;
+	color: #ffffff;
+	font-family: "Advent Pro";
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-right: 15px;
+	padding-top: 6px;
+	background: rgba(76, 165, 155, 0.7);	
+}
+
+		
+.news_pic1{
+	
+	width:269px;
+	height:173px;
+	background: url(../pic/news/1.jpg) no-repeat center; background-size: cover;
+	bottom: 0;
+	position: relative;
+}
+.news_pic2{
+	width:269px;
+	height:173px;
+	background: url(../pic/news/2.jpg) no-repeat center; background-size: cover;
+}
+.news_pic3{
+	width:269px;
+	height:173px;
+	background: url(../pic/news/3.jpg) no-repeat center; background-size: cover;
+}
+.news_pic4{
+	width:269px;
+	height:173px;
+	background: url(../pic/news/4.jpg) no-repeat center; background-size: cover;
+}
+
+
+.news_pic_small_text{
+	
+	width: 100%;
+	padding-left: 17px;
+	background: rgba(0, 0, 0, 0.6);
+	position: relative;
+	float: bottom;
+    position: absolute;
+    bottom: 10px;
+	color: #ffffff;
+	font-family: "Advent Pro";
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+#contact_us{
+/* 	background: url("../pic/mapw.png") no-repeat center bottom; */
+		background: url("../pic/mapw.png") ;
+ 	min-height:587px;
+	position: relative;
+/* 	height:auto; */
+	margin-top: 50px;
+
+}
+
+#map{
+width: 676px;
+height: 208px;
+	background: green;
+}
+
+.company_name{
+		position: relative;
+}
+.map_map{
+		position: relative;
+		height: 250px;
+}
+
+#footer{
+	min-height:131px;
+	background: #000000;
+		border-top: 6px solid #00aba9;
+
+}
+.container_footer{
+	
+	padding-top:59px;
+					position:relative;
+		display: inline-block;
+}
+
+
+.footer_company_name, .footer_some_text, .footer_copyright, .socmenu{
+	
+
+display: inline-block;
+}
+
+
+
+
+
+.footer_company_name{
+	
+}
+
+.footer_some_text{
+	
+}
+
+.footer_copyright{
+	
+	color: #ffffff;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+
+}
+
+.socmenu{
+	display: inline-block;
+	position: relative;
+	weight: 145px;
+	height: 25px;
+	margin: 0;
+	
+}
+		.socmenu li{
+			display: inline-block;
+			padding-left: 5px;
+
+			}
+
+		.socmenu li a{
+			width: 25px;
+			height: 25px;
+			display: block;
+			background: url('../pic/1soc.png');
+			transition: all 1s ease;
+		}
+
+		.socmenu li a{
+			background-position: 0 -25px;
+		}
+
+		.socmenu li+li a{
+			background-position: -30px 0;
+		}
+
+		.socmenu li+li+li a{
+			background-position: -60px 0px;
+		}
+
+		.socmenu li+li+li+li a{
+			background-position: -90px 0;
+		}
+
+		.socmenu li+li+li+li+li a{
+			background-position: -120px -0px;
+		}
+
+		.socmenu li+li+li+li+li+li a{
+			background-position: -250px -50px;
+		}
+
+		.socmenu li+li+li+li+li+li+li a{
+			background-position: -300px -50px;
+		}
+		
+		
+		
+	.contacts_adress, .contacts_phone{
+		
+		display: inline-block;
+		padding-left: 0;
+
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+	}	
+
+		
+#name_company_company{
+		width: 167px;
+height: 19px;
+color: #ffffff;
+font-family: "Advent Pro";
+font-size: 24px;
+font-weight: 700;
+text-transform: uppercase;
+	}	
+	
+#name_company{
+	color: #008287;
+letter-spacing: 1.3px;
+font-family: "Advent Pro";
+font-size: 24px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+#terms_privacy{
+	
+	color: #ffffff;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+}
+
+#footer_company_name_2{
+	
+	font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+font-family: "Open Sans";
+color: #008287;
+}
+
+#solution_color{
+	
+font-family: "Advent Pro";
+font-size: 72px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+background: #008287;
+}
+
+
+.glyphicon{
+background: #00aba9;}
+
+#company_blue_colour{
+	font-family: "Advent Pro Medium";
+font-weight: 500;
+color: #008287;
+}
+
+#our_services_black_colour{
+	
+font-family: "Advent Pro";
+font-size: 38px;
+color: #000000;
+font-family: "Advent Pro";
+font-weight: 700;
+}
+
+#text_in_some_service{
+	
+	color: #ffffff;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+}
+
+#news_blue_colour{
+	
+
+font-size: 38px;
+text-transform: uppercase;
+color: #008287;
+font-family: "Advent Pro Medium";
+font-weight: 500;
+}
+
+#us_white_colour{
+	
+
+
+font-size: 38px;
+font-weight: 700;
+text-transform: uppercase;
+color: #ffffff;
+font-family: "Advent Pro Medium";
+font-weight: 500;
+}
+
+.about_text_us{
+
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+margin-bottom: 50px;
+}
+
+#company_name_contact{
+	
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 24px;
+font-weight: 400;
+text-align: initial;
+}
+
+.i4ewOd-pzNkMb-haAclf{
+	display: none !important;
+	display: none;
+	visibility: hidden;
+	background-color: black;
+}
+
+#p_prldr{
+position: fixed;
+width: 100%;
+height: 200px;
+text-align: center;
+background: #03a4ab80;
+z-index: 30;
+bottom: 0;
+}
+ 
+.contpre small{
+	font-size:25px;
+	font-family: "Advent Pro";
+	}
+ 
+.contpre{
+width: 250px;
+height: 100px;
+position: absolute;
+left: 50%;top: 48%;
+margin-left:-125px;
+margin-top:-75px;
+color:#fff;
+font-size:40px;
+letter-spacing:-2px;
+text-align:center;
+line-height:35px;
+}
+ 
+#p_prldr .svg_anm {
+position: absolute;
+width: 41px;
+height: 41px;
+background: url(../pic/pufff.svg) center center no-repeat;
+background-size:41px;    
+}
+
+
+.main_pic_news{
+	min-height: auto;
+	min-width: auto;
+	position: relative;
+/* 	background: url(../pic/news/0.jpg); */
+}
+
+.second_pic_news{
+	
+}
+
+/* .news_pic_01 .news_pic_02 .news_pic_03 .news_pic_04{
+	min-height: auto;
+	min-width: auto;
+	max-height: 100%;
+	max-width: 100%;
+	padding: 0;
+} */
+
+.img-fluid{
+max-width:100%;
+}
+
+
+/* @media screen{
+.news_pic_01, .news_pic_02, .news_pic_03, .news_pic_04 {
+	width:269px;
+	height:173px;
+	padding: 0;
+	margin: 0 auto;
+}
+} */
+
+
+.container_contact_us{
+	position: relative;
+}
+
+
+@media screen and (min-width: 760px) {
+  .mobile_logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .navbar {
+     margin-right: -45px;
+  }
+   .logo {
+     margin-left: -40px;
+  } 
+}
+
+    
+.main_pic_news111 img{
+	max-height: 576px;
+	max-weight: 386px;
+}
+  
+  
+.info1 img {
+max-height: 450px;
+max-weight: 450px;
+}
+
+
+@media screen and (min-width: 992px) {
+.news_pic_01, .news_pic_02, .news_pic_03, .news_pic_04 img{
+max-width: 279px;
+max-height: 183px;
+}
+}
+
+@media screen and (min-width: 992px) {
+.news_pic_01, .news_pic_02, .news_pic_03, .news_pic_04 {
+max-width: 279px;
+max-height: 183px;
+}
+}
+
+
+.first_container_of_news, .second_container_of_news{
+	padding: 0;
+}
+
+.news_pic1, .news_pic2, .news_pic3, .news_pic4{
+	margin-left: 0;
+/* 	margin-right: 10px; */
+	padding-right: 0;
+}
+
+.news_pic1, .news_pic3{
+
+	margin-right: 10px;
+
+}
+.news_pic3, .news_pic4{
+	margin-top: 10px;
+}
+
+
+
+
+
+
+/* my news */
+
+.news_news{
+/* 	height: 400px; */
+padding-top: 10px;
+
+}
+
+.title_text_in_news_news{
+	
+color: #010101;
+font-family: "Advent Pro";
+font-size: 30px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.text_in_news_news{
+   
+	height: 200px;
+    color: #555555;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+	overflow: hidden;
+	background: -webkit-linear-gradient(top,#000 70%, #fff);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+	}
+
+
+.date_in_news_news{
+	
+	color: #010101;
+font-family: "Advent Pro";
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.read_more_news_news{
+	color: #010101;
+font-family: "Advent Pro";
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.read_more_news_news:hover{
+	animation: .5s forwards hover-v linear;
+	 animation-fill-mode: forwards;
+}
+
+.news_news:hover {
+  background:#99e9ffbf;
+  transition: all 0.6s ease-in-out;
+}
+
+
+#more_news_news{
+font-size: 20px;
+color: #008287;
+font-family: "Advent Pro Medium";
+font-weight: 500;
+}
+
+#news_news_read_more{
+	
+	text-decoration: none;
+}
+
+
+#top_button {
+text-align: center;
+display: none;
+position: fixed;
+bottom: 125px;
+right: 30px;
+font-size: 18px;
+border: none;
+outline: none;
+background-color: #00aba9;
+color: white;
+cursor: pointer;
+padding: 15px;
+border-radius: 4px;
+}
+
+
+@media screen and (max-width: 992px) {
+.text_in_carousel, #solution_color{
+font-size: 40px;
+}
+}
+
+
+
+@media screen and (max-width: 660px) {
+.text_in_carousel, #solution_color{
+font-size: 30px;
+}
+}
+
+@media screen and (max-width: 460px) {
+.text_in_carousel, #solution_color{
+font-size: 20px;
+}
+}
+
+a {
+	text-decoration: none;
+}
+/* ////news */
+.big_pict_news{
+/* max-width: 576px; */
+
+min-height: 385px;
+background: blue;
+padding:0;
+background: url(../pic/news/0.jpg) no-repeat;
+background-size: cover;
+/* background-size: contain; */
+    border-top: 10px solid white;
+    border-bottom: 20px solid white;
+}
+
+.header_big_pic_news{
+
+color: #010101;
+font-family: "Advent Pro";
+font-size: 30px;
+font-weight: 700;
+text-transform: uppercase;
+
+
+}
+
+.date_up_text{
+color: #ffffff;
+font-family: "Advent Pro";
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+background: #1c0f07bf;
+    float: right;	
+	    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.short_text_big_pict_news{
+	
+		float: right;
+	color: #ffffff;
+	font-family: "Advent Pro";
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+/* 	padding-right: 15px;
+	padding-top: 6px; */
+	background: #4ca59bb8;
+	left:0;
+	bottom:0;
+/* 	top: 230px; */
+	top: 200px;
+    position: relative;
+	    padding-left: 10px;
+		text-align: left;
+}
+
+
+
+.small_pic_news{
+	padding: 0;
+	padding-left: 10px;
+
+}
+
+.min_pic_news{
+	
+/* 	max-width: 279px; */
+	min-height: 183px;
+	color: #ffffff;
+	font-family: "Advent Pro";
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+/* 	padding-right: 15px;
+	padding-top: 6px; */
+	padding: 0;
+	margin: 0 auto;
+	background: rgba(76, 165, 155, 0.7);	
+	border-right:  10px solid white;
+	border-top:  10px solid white;
+}
+
+.date_up_text_small{
+	
+	color: #ffffff;
+font-family: "Advent Pro";
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+	background: rgba(76, 165, 155, 0.7);	
+	position: relative;
+	display: inline-block;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-left: 15px;
+	float: right;
+}
+
+.header_small_news{
+	color: #ffffff;
+	font-family: "Advent Pro";
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: #1c0f07bf;
+    bottom: 10px;
+    width: 100%;
+    min-height: 30px;
+    position: absolute;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.one_news{
+	height: 100%;
+	width: 100%;
+	
+}
+#first_small_news{
+		background: url(../pic/news/1.jpg) no-repeat;
+		background-size: cover;
+}
+#second_small_news{
+		background: url(../pic/news/2.jpg) no-repeat;
+		background-size: cover;
+}
+#third_small_news{
+		background: url(../pic/news/3.jpg) no-repeat;
+		background-size: cover;
+}
+#fourth_small_news{
+		background: url(../pic/news/4.jpg) no-repeat;
+		background-size: cover;
+}
+
+
+.pading_news{
+/* 	padding: 5px;
+	margin: 5px; */
+	padding-right: 10px;
+	 float:left;
+	
+}
+ 
+.min_pic_news_min{
+	
+/* 		border-top:  10px solid white; */
+}
+
+
+
+@media screen and (max-width: 1200px) {
+.small_pic_news, #solution_color{
+    /* padding-left: 0px; */
+}
+}
+
+
+@media screen and (max-width: 990px) {
+.small_pic_news, #solution_color{
+     padding-left: 0px; 
+}
+}
+
+
+@media screen and (max-width: 990px) {
+.brd_right, #solution_color{
+     border-right: 0px; 
+}
+}
+
+@media screen and (max-width: 770px) {
+.min_pic_news, #solution_color{
+     border-right: 0px; 
+}
+}
+

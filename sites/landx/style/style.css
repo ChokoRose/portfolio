@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@font-face {
+  font-family: 'Walkway_Black';
+
+  src: url('../font/Walkway_Black.ttf')  format('truetype');
+}
+
+/*header
+
+logo*/
+.header{
+  background: url(../img/header.png) no-repeat center ;
+  height: 750px;
+  display:inline-block;
+
+}
+
+.background_opacity_div{
+
+width: 100%;
+height: 100%;
+position: relative;
+top: 0px;
+background: rgba(34,35,35,0.74);
+
+}
+
+.logo{
+
+}
+
+#logo_text{
+
+color: #ffffff;
+font-family: "Walkway_Black";
+font-size: 35px;
+font-weight: bold;
+line-height: 30px;
+}
+
+#logo_text_last{
+font-family: "Walkway_Black";
+font-size: 35px;
+font-weight: bold;
+line-height: 30px;
+color: #0199e6;
+}
+
+.logo_main_text {
+  /* Style for "Get the Be" */
+
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-top: 240px;
+  margin-bottom: 45px;
+  text-align: center;
+
+}
+.logo_main_text_solution{
+  font-size: 45px;
+  line-height: 60px;
+  /* Text style for "Solution" */
+  color: #0199e6;
+  font-family: "Raleway - Bold";
+  font-weight: 700;
+}
+
+.logo_small_text{
+
+  color: #ffffff;
+font-family: "Source Sans Pro";
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+}
+
+
+/* FORM*/
+
+
+.send_form{
+background: rgba(0, 0, 0, 0.5);
+position: relative;
+display: inline-block;
+padding-top: 25px;
+padding-bottom: 22px;
+padding-right: 22px;
+border-radius: 15px;
+min-height: 101px;
+display:inline-block;
+}
+
+.group_form{
+
+box-shadow: -3px 0 0 #0199e6;
+border: 1px solid rgba(1, 153, 230, 0.3);
+background: #000000;
+position: relative;
+display: inline-block;
+border-radius: 4px;
+width: 214px;
+height: 54px;
+margin-left: 22px;
+/* не забыть с помощью медиа убрать отступы и тд*/
+}
+
+.input_form{
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  border: none;
+
+}
+
+::-webkit-input-placeholder {
+padding-left: 21px;
+opacity: 0.5;
+color: #ffffff;
+font-family: "Source Sans Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.input_button_form{
+
+width: 184px;
+height: 56px;
+background-color: #008ed6;
+border: none;
+border-radius: 5px;
+position: relative;
+display: inline-block;
+color: #ffffff;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+text-transform: uppercase;
+position: relative;
+}
+
+
+
+/* SECOND BLOCK*/
+
+.second_block{
+min-height: 625px;
+background-color: #ffffff;
+margin-top: 100px;
+margin-bottom: 1px;
+}
+
+#head_text_block2{
+  /* Style for "Explore th" */
+
+color: #323232;
+font-family: Raleway;
+font-size: 35px;
+font-weight: 500;
+line-height: 50px;
+}
+
+#small_text_block2{
+
+color: #727272;
+font-family: "Source Sans Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+}
+
+.block02{
+  margin-top: 48px;
+}
+
+.small_text_block2_head2{
+  color: #323232;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+line-height: 25px;
+}
+
+.small_text_block2_normal{
+color: #727272;
+font-family: "Source Sans Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+display: inline-block;
+}
+
+.pic_block2{
+    margin-top: 10px;
+}
+
+.text_block02{
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+
+/* THIRD BLOCK*/
+
+.third_block{
+min-height: 625px;
+background-color: #ffffff;
+margin-top: 100px;
+margin-bottom: 1px;
+}
+/* END THIRD BLOCK*/
+
+/* FOURTH BLOCK*/
+
+.fourth_block{
+min-height: 320px;
+}
+
+.mini_blocks_fourth_block{
+margin-top: 77px;
+}
+
+.picture_mini_block{
+    text-align: center;
+}
+.head_mini_block{
+
+  color: #323232;
+  font-family: "Raleway - Semi Bold";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 64.9px;
+  text-align: center;
+}
+
+.text_mini_block{
+
+  color: #727272;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.96px;
+  text-align: center;
+
+}
+/* END FOURTH BLOCK*/
+
+/* FIFTH BLOCK*/
+.fifth_block{
+  min-height: 320px;
+  margin-top: 216px;
+}
+.mini_blocks_fifth_block{
+width: 360px;
+height: 476px;
+border: 1px solid #e5e5e5;
+background-color: #ffffff;
+margin-top: 77px;
+}
+.head_mini_blocks_fifth_block{
+width: 358px;
+height: 99px;
+background-color: #323232;
+}
+
+.head_text_mini_blocks_fifth_block{
+color: #ffffff;
+font-family: "Raleway - Semi Bold";
+font-size: 24px;
+font-weight: 400;
+line-height: 65px;
+position: static;
+margin-top: 24px;
+margin-left: 150px;
+display: inline;
+}
+
+.medium_text_mini_blocks_fifth_block
+{
+color: #ffffff;
+font-family: "Source Sans Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 65px;
+position: static;
+display: inline;
+margin-left: 112px;
+margin-bottom: 12px;
+}
+
+/* END FIFTH BLOCK*/
+
+
+/* SIXTH BLOCK*/
+
+.sixth_block{
+  min-height: 320px;
+  margin-top: 211px;
+}
+
+.video_file{
+    min-height: 320px;
+    margin-top: 77px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.video_in{
+      max-width: 100%;
+}
+.text_after_video_file{
+
+color: #323232;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 64px;
+text-align: center;
+margin-top: 46px;
+}
+/* END SIXTH BLOCK*/
+
+
+/* SEVENTH BLOCK*/
+.seventh_block{
+  min-height: 670px;
+  margin-top: 211px;
+}
+
+
+.gallery_pic{
+  width: 358px;
+  height: 244px;
+}
+
+.carousel_menu{
+  margin-top: 79px;
+}
+
+
+
+ol.carousel-indicators {
+text-align: center;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  float: left;
+  height: 5px;
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+  margin-left: 5px;
+}
+
+ol.carousel-indicators li.active {
+  background: #0199e6;
+}
+
+ol.carousel-indicators li {
+  background: #94cae6;
+}
+/* END SEVENTH BLOCK*/
+
+/* EIGHTS BLOCK*/
+
+.eights_block{
+  min-height: 320px;
+
+}
+.trusted_companies{
+  margin-top: 79px;
+  margin-bottom: 74px;
+  text-align: center;
+  display: inline-block;
+}
+
+.companies_logo {
+  max-width: 155px;
+display: inline-block;
+}
+
+.recall{
+  margin-bottom: 100px;
+}
+
+.recall_column {
+  text-align: center;
+}
+
+.text_of_recall{
+  margin-top: 35px;
+  margin-bottom: 33px;
+  color: #727272;
+  font-family: "Source Sans Pro - It";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  width: 288px;
+height: 141px;
+}
+
+.block_name_of_recall{
+  margin-top: 30px;
+}
+
+.name_of_recall{
+  color: #0199e6;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.company_of_recall{
+  color: #727272;
+  font-family: "Source Sans Pro";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+/* END EIGHTS BLOCK*/
+
+
+/* NINTH BLOCK*/
+
+.down_cont{
+  background:  url(../img/background_down.png) no-repeat center ;
+  min-height: 451px;
+}
+
+.ninth_block{
+  text-align: center;
+}
+
+.upper_text_of_ninth_block{
+
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 65px;
+  padding-top: 141px;
+}
+
+.central_text_of_ninth_block{
+
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 65px;
+}
+
+.button_of_ninth_block{
+color: #ffffff;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+text-transform: uppercase;
+background-color: #008ed6;
+width: 185px;
+height: 54px;
+text-align: center;
+display: inline-block;
+border-radius: 5px;
+padding-top: 12px;
+}
+
+.d{
+  /* Style for "d" */
+width: 14px;
+height: 8px;
+color: #ffffff;
+font-family: "landx -font -icons";
+font-size: 16px;
+font-weight: bold;
+line-height: 30px;
+}
+/* END NINTH BLOCK*/
+
+/* TENTH BLOCK*/
+
+.tenth_block{
+  min-height: 150px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.text_in_tenths_block{
+  color: #323232;
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 65px;
+}
+
+.contact_in_tenths_block{
+
+  color: #008ed6;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29.75px;
+  text-transform: uppercase;
+  font-family: "Raleway - Bold";
+  font-weight: 700;
+}
+/* END TENTH BLOCK*/
+
+/*FOOTER*/
+
+.footer{
+  margin-bottom: 98px;
+}
+
+#logo_footer_text{
+color: black;
+font-family: "Walkway_Black";
+font-size: 35px;
+font-weight: bold;
+line-height: 30px;
+}
+
+.logo_in_footer{
+  text-align: center;
+}
+
+.footer_small_text{
+text-align: center;
+margin-top: 23px;
+color: #919191;
+font-family: "Source Sans Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.socials{
+  text-align: center;
+  display: inline-block;
+}
+.twit {
+  display:inline-block;
+  vertical-align:bottom;
+  width:24px;
+  height:24px;
+  margin:0 5px 0px 0;
+  padding:0;outline:none;
+  background:url(../img/sprite.png) -0px 0 no-repeat;
+}
+
+.vkon {
+  display:inline-block;
+  vertical-align:bottom;
+  width:24px;
+  height:24px;
+  margin:18px 5px 0px 0;
+  padding:0;
+  outline:none;
+  background:url(../img/sprite.png) -24px 0 no-repeat;
+}
+
+.face {
+  display:inline-block;
+  vertical-align:bottom;
+  width:24px;
+  height:24px;
+  margin:0 5px 0px 0;
+  padding:0;
+  outline:none;
+  background:url(../img/sprite.png) -48px 0 no-repeat
+}
+
+.goog {
+  display:inline-block;
+  vertical-align:bottom;
+  width:24px;
+  height:24px;
+  margin:0 5px 0px 0;
+  padding:0;
+  outline:none;
+  background:url(../img/sprite.png) -96px 0 no-repeat
+}
+
+.rsskt {
+  display:inline-block;
+  vertical-align:bottom;
+  width:24px;
+  height:24px;
+  margin:0 5px 0px 55px;
+  padding:0;
+  outline:none;
+  background:url(../img/sprite.png) -120px 0 no-repeat
+}
+
+.emailkt {
+  display:inline-block;
+  vertical-align:bottom;
+  width:24px;
+  height:24px;
+  margin:0 5px 0px 0;
+  padding:0;
+  outline:none;
+  background:url(../img/sprite.png) -144px 0 no-repeat
+}
+
+
+/* OTHERS STYLE BLOCKS etc*/
+.head_text_of_block{
+  color: #323232;
+  font-family: Raleway;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 65px;
+  text-align: center;
+
+}
+
+.img_in{
+  max-width: 100%;
+}
+
+
+
+.small_text_of_block{
+color: #727272;
+font-family: "Source Sans Pro";
+font-size: 17px;
+font-weight: 400;
+line-height: 25px;
+  text-align: center;
+}
+/* END OTHERS STYLE*/

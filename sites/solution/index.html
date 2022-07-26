@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="ru">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>maket3_bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" integrity="sha384-vhJnz1OVIdLktyixHY4Uk3OHEwdQqPppqYR8+5mjsauETgLOcEynD9oPHhhz18Nw" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style.css" class="css">
+  </head>
+  
+  <body>
+	<script type="text/javascript">$(window).on('load', function () {
+		var $preloader = $('#p_prldr'),
+			$svg_anm   = $preloader.find('.svg_anm');
+		$svg_anm.fadeOut();
+		$preloader.delay(1000).fadeOut('slow');
+	});
+</script>
+	<div id="p_prldr">
+		<div class="contpre">
+			<span class="svg_anm"></span><br>Идет загрузка<br>
+		</div>
+	</div>
+
+</div>
+	<div class="container-fluid" id="header">
+		<div class="container" id="container_header">
+			<div class="hidden-xs col-sm-12 col-md-4">
+				<a href="#"><div class="row "><div class="logo"><img src="pic/logo.png" alt="Logo"></div></div></a>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-8">	
+				<nav class="navbar navbar-default">
+				<div class="container-fluid">
+				  <div class="navbar-header">
+					<a class="logo mobile_logo"><img src="pic/logo.png" alt="Logo"></a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					  <span class="sr-only">Toggle navigation</span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+				  </div>
+
+				  <div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+					  <li><a href="#" class="text_up">About Us</a></li>
+					  <li><a href="#" class="text_up">Services</a></li>
+					  <li><a href="#" class="text_up">News</a></li>
+					  <li><a href="#" class="text_up">Contacts</a></li>
+					</ul>
+					</div>
+				</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" id="carousel_f">
+		<div id="testCarousel" class="carousel slide swipe" data-ride="carousel">
+			<div class="carousel-inner">
+				<!-- Слайд 1 -->
+				<div class="item active">
+					<img src="pic/main.jpg" alt="...">
+					<div class="carousel-caption">
+						<p class="text_in_carousel">The best <span id="solution_color">solutions</span> starts here!</p>
+					</div>
+				</div>
+				<!-- Слайд 2 -->
+				<div class="item">
+					<img src="pic/main2.jpg" alt="...">
+					<div class="carousel-caption">
+						<p class="text_in_carousel">The best <span id="solution_color">solutions</span> starts here!</p>
+					</div>
+				</div>
+				<!-- Слайд 3 -->
+				<div class="item">
+					<img src="pic/main.jpg" alt="...">
+					<div class="carousel-caption">
+						<p class="text_in_carousel">The best <span id="solution_color">solutions</span> starts here!</p>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#testCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#testCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+	</div>
+
+	
+	<div class="container-fluid">
+		<div class="container container_about" id="about_company">
+			<div class="row"><h2 id="about_text_h">About <span id="company_blue_colour">Company</span></h2></div>
+			<hr></hr>
+			<p class="about_text">Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque hendrerit. Pellentesque laoreet dapibus justo in pretium. Suspendisse auctor quam cursus mauris sollicitudin imperdiet. Aliquam ullamcorper lorem purus, ac dictum velit fermentum ac. Proin eu dui nec quam pulvinar lacinia vulputate at sem. Integer a est lectus. Curabitur ut lectus vel eros accumsan accumsan. Aliquam erat volutpat. Phasellus molestie arcu sit amet lectus tempor, ut blandit orci interdum. Pellentesque sollicitudin metus sem, et auctor nunc pellentesque aliquam. </p>
+		</div>
+	</div>
+	<div class="container-fluid" id="our_services">
+	<div class="container container_about" ><div class="row">
+			<h2 id="our_services_h_text"><span id="our_services_black_colour">Our</span> Services</h2></div>
+			<hr></hr>
+		<div class="row"><p id="our_services_in_text">Donec faucibus hendrerit libero nec varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin viverra lorem mi, in tincidunt neque volutpat id. </p></div>
+			<div class="some_service col-md-4 col-sm-6 col-xs-12 ">
+				<img  src="pic/serv/1.png" alt="...">
+				<h3 class="some_serv_h">Some Service</h3>
+				<p id="text_in_some_service">Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque hendrerit. Pellentesque laoreet dapibus justo in pretium.</p>
+			</div>
+			<div class="some_service col-md-4 col-sm-6 col-xs-12">
+				<img src="pic/serv/2.png" alt="...">
+				<h3 class="some_serv_h">Some Service</h3>
+				<p id="text_in_some_service">Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque hendrerit. Pellentesque laoreet dapibus justo in pretium.</p>
+			</div>
+			<div class="some_service col-md-4 col-sm-6 col-xs-12">
+				<img src="pic/serv/3.png" alt="...">
+				<h3 class="some_serv_h">Some Service</h3>
+				<p id="text_in_some_service">Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque hendrerit. Pellentesque laoreet dapibus justo in pretium.</p>
+			</div>
+			<div class="some_service col-md-4 col-sm-6 col-xs-12">
+				<img src="pic/serv/4.png" alt="...">
+				<h3 class="some_serv_h">Some Service</h3>
+				<p id="text_in_some_service">Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque hendrerit. Pellentesque laoreet dapibus justo in pretium.</p>
+			</div>
+			<div class="some_service col-md-4 col-sm-6 col-xs-12">
+				<img src="pic/serv/5.png" alt="...">
+				<h3 class="some_serv_h">Some Service</h3>
+				<p id="text_in_some_service">Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque hendrerit. Pellentesque laoreet dapibus justo in pretium.</p>
+			</div>
+			<div class="some_service col-md-4 col-sm-6 col-xs-12">
+				<img src="pic/serv/6.png" alt="...">
+				<h3 class="some_serv_h">Some Service</h3>
+				<p id="text_in_some_service">Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque hendrerit. Pellentesque laoreet dapibus justo in pretium.</p>
+			</div>
+	</div>
+	</div>
+	<div class="container-fluid">
+		<div class="container" id="blog_news">
+		<h2 id="about_text_h">Blog & <span id="news_blue_colour">News</span></h2>
+		<hr></hr>
+		<div class="row"><p class="about_text">Donec faucibus hendrerit libero nec varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin viverra lorem mi, in tincidunt neque volutpat id.  </p></div>
+		
+		<div class="row">
+			<a href="#">
+				<div class="big_pict_news col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<div class="pading_news"></div>
+					<div class="date_up_text">June 15, 2014</div>
+					<div class="short_text_big_pict_news">
+						<span class="header_big_pic_news">Featured News</span>
+							<p>Proin posuere non est at ornare. Duis aliquam sapien urna, consectetur scelerisque ipsum malesuada in. Fusce venenatis justo vel est posuere fermentum.</p></div>
+				</div>
+				
+			</a>
+					<div class="pading_news"></div>
+		<div class="small_pic_news col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		
+			<a href="#"><div class="min_pic_news  col-xs-12 col-sm-6 col-md-6 col-lg-6" id="first_small_news">
+			<div class="date_up_text_small">June 13, 2014</div>
+			<div class="header_small_news">Some News Title</div>
+			</div></a>
+								<div class="pading_news"></div>
+			<a href="#"><div class="min_pic_news brd_right col-xs-12 col-sm-6 col-md-6 col-lg-6" id="second_small_news">
+			<div class="date_up_text_small">June 13, 2014</div>
+			<div class="header_small_news">Some News Title</div>			
+			</div></a>
+								<div class="pading_news"></div>
+			<a href="#"><div class="min_pic_news min_pic_news_min col-xs-12 col-sm-6 col-md-6 col-lg-6" id="third_small_news">
+			<div class="date_up_text_small">June 09, 2014</div>
+			<div class="header_small_news">Some News Title</div>			
+			</div></a>
+			<a href="#"><div class="min_pic_news brd_right min_pic_news_min col-xs-12 col-sm-6 col-md-6 col-lg-6" id="fourth_small_news">
+			<div class="date_up_text_small">June 01, 2014</div>
+			<div class="header_small_news">Some News Title</div>			
+			</div></a>
+											<div class="pading_news"></div>
+		</div>
+		</div>
+		</div><!-- вот здесь заканчивается контейнер ньюс-->
+      </div>
+		
+		
+		
+
+		
+		
+		
+
+	<div class="container-fluid" id="contact_us">
+		<div class="container container_contact_us">
+		<h2 id="about_text_h"><span>Contact</span> <span id="us_white_colour">Us</span></h2>
+		<hr></hr>
+		<p class="about_text_us">Donec faucibus hendrerit libero nec varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin viverra lorem mi, in tincidunt neque volutpat id. </p>
+<!-- 	<div style="overflow:hidden;width: 675px;height: 208px;"><iframe width="675" height="208" src="https://maps.google.com/maps?width=675&amp;height=208&amp;hl=en&amp;q=13%20Radnor%20Walk%20London%20SW3%204BP+(Radnor)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div><small><a href="https://embedgooglemaps.com/en/">https://embedgooglemaps.com/en/</a></small></div><div><small><a href="https://iamsterdamcard.it">i amsterdamcard it</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
+  -->
+  
+  <div class=" map_map col-md-8 col-sm-12 col-xs-12 "> <!-- заглушка для карты. сделать с помощью медиазапроса на xs изменение размера-->
+          <!--   <div id="map"></div> -->
+			<iframe src="https://www.google.com/maps/d/embed?mid=1TFjDA0Deha4W7s9rySZHpYSawOX72zTH" width="100%" height="100%"></iframe>
+        </div>
+<!-- 		<script>
+			$("div.i4ewOd-pzNkMb-haAclf").remove()
+		</script> -->
+
+		<div class="company_name col-md-4 col-sm-12 col-xs-12">
+			<p id="company_name_contact"href="">Company Name</p>
+					<hr></hr>
+<!-- 			<div class="contacts_adress"><p>	13 Radnor Walk +44(0) 207 581 8313</p>
+			<p> London +44(0) 207 681 8314</p>
+			<p> SW3 4BP  enquiries@kasimira.com</p>
+			</div> -->
+			
+			<div class="contacts_adress">
+				<p>	13 Radnor Walk</p>
+				<p> London</p>
+				<p> SW3 4BP </p>
+			</div>
+			<div class="contacts_phone">
+				<p>	+44(0) 207 581 8313</p>
+				<p>	+44(0) 207 681 8314</p>
+				<p>	<ins>enquiries@kasimira.com</ins></p>
+			</div>
+		</div>
+ 
+ </div>
+	</div>
+	<div class="container-fluid" id="footer">
+			<div class="container container_footer">
+				<a href="#"><div class="footer_company_name col-xs-12 col-sm-2 col-md-2"><span id="name_company_company">Company</span> <span id="name_company">Name</span></div></a>
+				<div class="footer_some_text col-xs-12 col-sm-2 col-md-2" id="terms_privacy">|  <a href="#">Terms</a>   |  <a href="#">Privacy</a></div>
+				<div class="socmenu col-xs-12 col-sm-4 col-md-4">
+						<ul ">
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ul>
+				</div>
+				<div class="footer_copyright col-xs-12 col-sm-4 col-md-4" >Copyright © 2013 <span id="footer_company_name_2"><a href="#">Company Name</a></span>. All rights reserved. </div>
+			</div>
+	</div>
+	<button onclick="topFunction()" id="top_button"><span class="glyphicon glyphicon-chevron-up"></span></button>
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+		  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+			document.getElementById("top_button").style.display = "block";
+		  } else {
+			document.getElementById("top_button").style.display = "none";
+		  }
+		}
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+}
+</script>
+     </body>
+</html>
